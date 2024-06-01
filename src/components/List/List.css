@@ -1,0 +1,30 @@
+.list {
+    padding: 0px;
+    margin-top: 50px;
+  }
+  
+  .list li {
+    background-color: #fff;
+    width: 300px;
+    color: #302b63;
+    font-weight: 800;
+    font-size: 30px;
+    padding: 10px;
+    list-style: none;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 20px;
+  }
+  
+  .actions {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55px;
+  }
+  
+  .list li.done {
+    background-color: red;
+  }

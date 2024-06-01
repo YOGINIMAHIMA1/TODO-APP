@@ -1,0 +1,47 @@
+.App {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.adder {
+  width: 270px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.adder input {
+  outline: none;
+  border: 3px solid white;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  color: white;
+  height: 50px;
+  width: 250px;
+  padding-left: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.adder span {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.8;
+  cursor: pointer;
+  transition: all 200ms;
+  color: white;
+}
+
+.adder span:hover {
+  transform: rotate(180deg);
+}
